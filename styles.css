@@ -1,0 +1,106 @@
+* {
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: critter,cursive;
+  color: #1a1919;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  background-color: hsl(179, 91%, 48%);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #3131ca;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  background-color: hsl(319, 68%, 59%);
+  color: #191917;
+}
+
+.hero-text {
+  max-width: 30%;
+}
+
+.hero-text h2 span {
+  font-weight: bold;
+}
+
+.hero-text ul {
+  margin: 60px 0;
+  line-height: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.primary {
+  background-color: rgb(28, 27, 26);
+  color: rgb(37, 154, 197);
+}
+
+button.secondary {
+ 
+  color: #333;
+}
+
+.hero-image img {
+  width: 400px;
+  border: 3px solid #f41515;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0;
+  background-color: #3fc519;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 50%;
+  height: 100%;
+  background-color: hsl(0, 42%, 95%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
